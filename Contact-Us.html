@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woof & Meow</title>
+    <link rel="stylesheet" href="mystyle1.css">
+    <style>
+        #email1{
+            background-color: white;
+            color: black;
+            display: flex;
+            align-items: center;
+        }
+        #email{
+            background-color: white;
+            color: black;
+        }
+        #email1 :hover{
+            background-color: blueviolet;
+            color: white;
+        }
+        #fieldset1{
+            border: 4px solid blueviolet;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px;
+        }
+        li{
+            list-style-type: none;
+        }
+        .contact-form{
+            border: 4px solid blueviolet;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .contact-form label{
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        border: 1px solid #54473F;
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        form button{
+            width: 30%;
+            padding: 5px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        form button:hover{
+            background-color: blueviolet;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+      <header>
+        
+           <a href="homepage.html"><img  src="woof&meow.png" alt="picture of dog and cat" width="230" height="100"></a>
+           <p id="datetime"></p>
+
+        
+       </header>
+
+        <nav>
+            <ul id="ul1">
+                <li class="li"><a href="homepage.html">Home Page</a></li>
+                <li class="li"><a href="Browse-Available-Pets.html">Browse Available Pets</a></li>
+                <li class="li"><a href="Find-a-Dog-or-Cat.html">Find a dog/cat</a></li>
+                <li class="li"><a href="Dog-care.html">Dog Care</a></li>
+                <li class="li"><a href="Cat-Care.html">Cat Care</a></li>
+                <li class="li"><a href="Have-a-pet-to-give-away.html">Have a pet to give away</a></li>
+                <li class="li"><a href="Contact-Us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <main id="main">
+            <h1>Contact Us</h1>
+            <p>If you have any questions or need assistance, feel free to reach out to us. We're here to help!</p>
+            <fieldset id="fieldset1">
+                <section id="contact-info">
+                    <h2>My Contact Information</h2>
+                    <ul>
+                        <li><strong>Name:</strong> Farhan Ali Khan</li>
+                        <li><strong>Student ID:</strong> 40387970</li>
+                        <li id="email1"><strong>Email:</strong> <a id="email" href="mailto:farhan.doodle@example.com">farhan.doodle@example.com</a></li>
+                        <li ><strong>Phone:</strong> +1 (514) 348-1212</li>
+                        <li><strong>Address:</strong> 123 Pet Adoption Street, Montreal, QC, Canada</li>
+                    </ul>
+                </section>
+    
+                <section id="additional-info">
+                    <h2>Additional Information</h2>
+                    <p>
+                        Woof & Meow is dedicated to helping pets find loving homes. If you have any questions about pet adoption,
+                        care, or our services, please don't hesitate to contact us. We're available Monday to Friday, 9 AM to 5 PM.
+                    </p>
+                </section>
+            </fieldset><br>
+            <fieldset class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form>
+                    <label class="boldlabel" for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+            
+                    <label class="boldlabel" for="email2">Email:</label>
+                    <input type="email" id="email2" name="email" required>
+                    <br>
+            
+                    <label class="boldlabel" for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <br>
+            
+                    <button type="submit">Send</button>
+                </form>
+            </fieldset><br>
+        </main><br>
+    
+    </div>
+
+        
+      <footer id="footer" >
+       
+        <div id="footer1">
+            <p id="p1">Bringing Paws & People Together</p>
+
+        </div>
+        <div id="footer2">
+            <a href="homepage.html">  <img id="img2" src="woof&meow1.png" alt="picture of dog and cat" width="190" height="70"></a>
+            <hr id="hr1">
+            <p id="p2"><a id="privacy" href="Privacy-DisclaimerStatement.html"> Privacy | Disclaimer Statement</a></p>
+            <p id="p3">© Woof & Meow 2025</p>
+
+        </div>
+    
+      </footer>
+      <script src="woof&meow.js"></script>
+    
+</body>
+</html>
